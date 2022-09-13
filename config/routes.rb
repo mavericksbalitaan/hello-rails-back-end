@@ -2,7 +2,6 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :messages, only: [:index]
-      resources :random, only: [:index]
     end
   end
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
